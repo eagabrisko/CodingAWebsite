@@ -1,0 +1,233 @@
+@charset "UTF-8";
+body {
+	 
+ font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+margin: 0;
+	font-size: 1.5em;
+	background-color: #191D33;
+}
+
+p {
+    color: #EBE7D4;
+    padding-top: 30px;
+    font-size: 1em;
+    font-weight: 400;
+	text-align: justify;
+	line-height: 1.4
+}
+
+h1 {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: oblique;
+	font-size: 3em;
+	color: #ECCA45; 
+	text-align: center
+}
+
+.strongp{
+	color: #EBE7D4; 
+	text-align: center
+}
+
+h2 {
+	font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: oblique;
+	color: #ECCA45; 
+	font-size: 2.0em;
+	padding-top: 100px;
+	text-align: center
+}
+h3{
+	font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: oblique;
+	font-size: 1.5em;
+	color: #ECCA45; 
+	padding-top: 100px;
+		text-align: center
+}
+
+h4{
+	font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: oblique;
+	font-size: 1.1em;
+	color: #ECCA45; 
+	padding-top: 100px;
+		text-align: center
+}
+a {
+	color: #808EE3;
+	text-decoration: none;
+	font-style: normal
+}
+a:hover { 
+	color: #ECCA45;
+	font-style: normal
+}
+
+address{
+	color: #EBE7D4
+}
+
+.button {
+	background-color: #F2D052;
+	color: #181D36;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 40px;
+	border-radius: 100px;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-size: 1em;
+	 font-weight: 800;
+	
+}
+
+.button:hover {
+	background-color: #808EE3;
+	color: #181D36;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-size: 1em;
+	 font-weight: 800;
+}
+
+.centerimage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 15px
+}
+	
+.leftimage {
+	float: left;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px
+}
+
+.rightimage {
+	float: right;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	
+}
+
+
+footer{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
+	color: #EBE7D4
+}
+
+header {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 10%;
+	padding-left: 10%;
+	background-color: #455be3
+		
+}
+
+section{
+	padding-right: 15%;
+	padding-top: 2%;
+	padding-left: 15%
+}
+
+q{
+	color: #EBE7D4;
+	font-size: 1.25em;
+	letter-spacing: 1px;
+	 font-family: "Zalando Sans Expanded", sans-serif;
+	 font-style: normal;
+	 font-weight: 400;
+	
+	
+}
+
+.centertext{
+	text-align: center
+}
+
+.righttext{
+	text-align: right
+}
+
+cite {
+	 color: #EBE7D4;
+	text-align: center;
+	
+}
+
+.quote{
+	font-size: .75em
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EBE7D4;
+	color: #ECCA45
+	
+}
+
+ul li {
+  float: left;
+	width: 25%
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	color: #191D33
+}
+
+ul li a:hover {
+  background-color: #191D33;
+	 color: #EBE7D4;
+}
+
+.visited {
+  background-color: #ECCA45;
+	color: #EBE7D4
+}
+
+nav {
+	position: fixed;
+	margin: 0;
+	top: 0;
+	width: 100%
+}
+
+ol {
+	color: #EBE7D4;
+    padding-top: 30px;
+    font-size: 1em;
+    font-weight: 400;
+	text-align: justify;
+	line-height: 2;
+	background-color: #191D33
+}
