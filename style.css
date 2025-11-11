@@ -16,7 +16,6 @@ p {
     padding-top: 30px;
     font-size: 1em;
     font-weight: 400;
-	text-align: justify;
 	line-height: 1.4
 }
 
@@ -25,7 +24,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: oblique;
-	font-size: 3em;
+	font-size: 2.5em;
 	color: #ECCA45; 
 	text-align: center
 }
@@ -41,7 +40,7 @@ h2 {
   font-weight: 800;
   font-style: oblique;
 	color: #ECCA45; 
-	font-size: 2.0em;
+	font-size: 1.75em;
 	padding-top: 100px;
 	text-align: center
 }
@@ -50,7 +49,7 @@ h3{
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: oblique;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	color: #ECCA45; 
 	padding-top: 100px;
 		text-align: center
@@ -61,7 +60,7 @@ h4{
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: oblique;
-	font-size: 1.1em;
+	font-size: 1.0em;
 	color: #ECCA45; 
 	padding-top: 100px;
 		text-align: center
@@ -92,6 +91,7 @@ address{
 	font-style: normal;
 	font-size: 1em;
 	 font-weight: 800;
+	margin-top:3%
 	
 }
 
@@ -144,7 +144,14 @@ header {
 	padding-right: 10%;
 	padding-left: 10%;
 	background-color: #455be3
-		
+}
+
+.headerabout{
+	padding-top: 2%;
+	padding-bottom: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #191D33
 }
 
 section{
@@ -230,4 +237,52 @@ ol {
 	text-align: justify;
 	line-height: 2;
 	background-color: #191D33
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%
+}
+
+.card:hover {
+  box-shadow: 8px 16px 16px 8px rgba(0,0,0,0.4);
+}
+
+.container {
+  padding: 2px 16px;
+
+	
+}
+
+.cardpright {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+	width: 40%;
+	float: right;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%
+}
+
+.cardpright:hover {
+  box-shadow: 8px 16px 16px 8px rgba(0,0,0,0.4);
+}
+
+.cardpleft {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+	width: 40%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%
+}
+
+.cardpleft:hover {
+  box-shadow: 8px 16px 16px 8px rgba(0,0,0,0.4);
 }
